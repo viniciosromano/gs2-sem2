@@ -51,7 +51,6 @@ public class ResiduoController {
 
     @PostMapping
     public ResponseEntity<ResiduoResponseDto> create(@RequestBody ResiduoRequestCreateDto dto) {
-        System.out.println(dto);
         return ResponseEntity
                 .status(HttpStatus.CREATED)
                 .body(

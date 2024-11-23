@@ -20,7 +20,6 @@ public class ResiduoService {
 
     @Transactional
     public Residuo save(Residuo residuo) {
-        System.out.println(residuo);
         return residuoRepository.save(residuo);
     }
 
